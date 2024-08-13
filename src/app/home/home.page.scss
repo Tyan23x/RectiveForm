@@ -1,27 +1,47 @@
-#container {
-  text-align: center;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+
+#container #Tittle {
+  text-align: center;
+  margin-top: 5px;
+  color: aqua;
 }
+
 
 #container strong {
   font-size: 20px;
   line-height: 26px;
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+#container .Card {
+  background: linear-gradient(#212121, #212121) padding-box,
+    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  padding: 32px 24px;
+  font-size: 14px;
+  font-family: inherit;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  border-radius: 16px;
 }
 
-#container a {
-  text-decoration: none;
+#container .Input{
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: aliceblue;
+  color: #212121;
+}
+
+
+.Alert{
+  color: red;
+  font-size: 14px;
+  margin: 0px 0px 10px 0px;
+  
 }
